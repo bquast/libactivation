@@ -2,10 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
         name="libactivation", 
-        version="0.1.0",
+        version="0.2.0",
         author="Bastiaan Quast",
         author_email="<bquast@gmail.com>",
         packages=find_packages(),
+        install_requires=['numpy',],
         keywords=['sigmoid', 'ReLU'],
         classifiers= [
             "Development Status :: 3 - Alpha",
